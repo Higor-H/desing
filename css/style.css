@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    border: 2px solid;
+    border: none;
     outline: none;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
@@ -58,6 +58,10 @@ section{
     color: var(--texto-color);
     font-weight: 600;
     cursor: default; /*quando musar a pagina ela vai junto*/
+}
+
+.servicopage-conteiner p{
+    font-size: 2rem;
 }
 
 .navbar a{
